@@ -1,3 +1,53 @@
 .hidden {
   display: none;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: navy;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+}
+
+button {
+  width: 60px;
+  height: 40px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.todolist {
+  width: 400px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: rgb(203, 253, 236);
+  color: black;
+
+
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#todo-form {
+  margin-bottom: 10px;
+}
