@@ -26,9 +26,16 @@ function paintToDo(newTodo) {
   li.id = newTodo.id;
   const span = document.createElement("span");
   span.innerText = newTodo.text;
+  span.addEventListener("click", function () {
+    span.style.textDecoration = "line-through";
+  });
+
+
+
   const button = document.createElement("button");
   button.innerText = "✕";
   button.addEventListener("click", deletetodo);
+
   li.appendChild(span);
   li.appendChild(button);
   toDoList.appendChild(li);
